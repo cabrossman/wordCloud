@@ -1,0 +1,14 @@
+Hi Courtney,
+
+The "wc_stem_tfidf.png" file is the one that best represents the overall theme in the Corporate Narrative document you shared with me. The other files are given to highlight the differences between the documents and why they are different (if that is something you are interested in knowing)
+
+Below are some notes about the main differences in order of in difference to your wordcloud you created.
+
+1. stemming : the process of reducing word to stem. So in many cases we want "boat", "boats" and "boating" to the same stem of "boat". This way they are grouped at the stem level and NOT separate words in your word cloud. In other cases we get not full words such as "peopl", but the meaning is not lost.
+2. Removing punctuation, converting to lower case, removing white space, numbers, stopwords (if, and, the, etc.) and special characters
+3. TF-IDF : (term frequency-inverse document frequency) This one is kind of complicated. The easy explanation is that it weights words on their importance to the document. So in the ~60 responses we weight words higher that appear in a response but is offset by the total number of times it occurs in all responses. In this case the TF-IDF did not have a high impact
+
+lets catch up tomorrow to see if you have any more questions or needs on this project.
+
+chris
+	
